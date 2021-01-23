@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 import time
 
 
-@st.cache
+#@st.cache
 def load_hospitals():
     df_hospital_2 = pd.read_csv('https://raw.githubusercontent.com/hantswilliams/AHI_STATS_507/main/Week13_Summary/output/df_hospital_2.csv')
     return df_hospital_2
